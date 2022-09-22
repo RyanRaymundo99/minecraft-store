@@ -1,4 +1,9 @@
-import React from 'react'
+import About1 from '../assets/About1.png';
+import About2 from '../assets/About2.png';
+import About3 from '../assets/About3.png';
+import About4 from '../assets/4.png';
+import About5 from '../assets/3.png';
+import About6 from '../assets/2.png';
 
 export default function About() {
   return (
@@ -11,24 +16,24 @@ export default function About() {
     <div class="flex flex-wrap md:-m-2 -m-1">
       <div class="flex flex-wrap w-1/2">
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/500x300"/>
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src={About1}/>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/501x301"/>
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src={About2}/>
         </div>
         <div class="md:p-2 p-1 w-full">
-          <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/600x360"/>
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src={About3}/>
         </div>
       </div>
       <div class="flex flex-wrap w-1/2">
         <div class="md:p-2 p-1 w-full">
-          <img alt="gallery" class="w-full h-full object-cover object-center block" src="https://dummyimage.com/601x361"/>
+          <img alt="gallery" class="w-full h-full object-cover object-center block" src={About4}/>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/502x302"/>
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src={About5}/>
         </div>
         <div class="md:p-2 p-1 w-1/2">
-          <img alt="gallery" class="w-full object-cover h-full object-center block" src="https://dummyimage.com/503x303"/>
+          <img alt="gallery" class="w-full object-cover h-full object-center block" src={About6}/>
         </div>
       </div>
     </div>
